@@ -1,8 +1,10 @@
+import speedtest
+import time
+import pandas as pd
 import streamlit as st
-import speedtest, time
 from datetime import datetime
 import os
-import pandas as pd
+
 
 
 HISTORY_FILE = "speed_results.csv"
@@ -95,3 +97,4 @@ if not history.empty:
     st.line_chart(history.set_index("time")[["download", "upload"]])
 else:
     st.write("No history yet. Run a test to start tracking.")
+
