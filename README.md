@@ -4,6 +4,7 @@ This project is a **Streamlit-based web application** that allows users
 to run internet speed tests directly from their browser. It measures
 download, upload, and ping speeds, then stores the results for history
 and visualization.
+Live Demo: https://oluwatomi-omotoso-netpulse.streamlit.app/
 
 ---
 
