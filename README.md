@@ -1,9 +1,9 @@
 # Internet Speed Test Web App
 
-This project is a **Streamlit-based web application** that allows users
-to run internet speed tests directly from their browser. It measures
+This project is a **Streamlit-based web application** that allows you
+to run internet speed tests directly from your browser. It measures
 download, upload, and ping speeds, then stores the results for history
-and visualization.
+and visualisation.
 
 Live Demo: https://oluwatomi-omotoso-netpulse.streamlit.app/
 
@@ -57,10 +57,10 @@ streamlit run app.py
 
 ## Deployment
 
-This app can be deployed on **Streamlit Cloud** for free.\
-When hosted, Streamlit Cloud keeps the `history.csv` persistent during
-the session, but resets if the app restarts. For long-term storage,
-consider connecting to a database (like SQLite or Firebase).
+This app is deployed on **Streamlit Cloud** for free.\
+Streamlit Cloud keeps the `history.csv` persistent during
+the session, but resets it if the app restarts. For long-term storage,
+I'd suggest connecting to an actual database (like SQLite or Firebase).
 
 ---
 
